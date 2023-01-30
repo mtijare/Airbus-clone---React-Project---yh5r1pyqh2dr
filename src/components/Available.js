@@ -14,7 +14,7 @@ const Available = () => {
       
 
     return (
-        <div className='flex items-center justify-center flex-col  w-[50rem] h-[20rem]' >
+        <div className='available' >
         <h1 className='text-5xl my-3 text-white font-medium place-self-start' >Available flights</h1> 
         <div className='flex flex-col bg-white items-center overflow-y-auto w-full' >
           { data.map((ele , index) => (

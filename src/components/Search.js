@@ -13,24 +13,24 @@ const Search = ({start , last , switch1}) => {
 
     return (
         <div className='flex items-center justify-center flex-col'>
-            <div className='flex flex-col ' >
-                <h1 className='text-5xl my-3 text-white font-medium place-self-start' >Let start Jeurney</h1>
+            <div className='journey ' >
+                <h1 className='start' >Let the Journey begin</h1>
                 <div className='search' >
                  
-                    <div className='flex flex-col items-center justify-center mx-3 '>
-                        <p className='place-self-start text-slate-400 text-sm ' >From</p>
+                    <div className='Air_flight '>
+                        <p className='place' >From</p>
                         <input type="text" onChange={(e)=>{start(e.target.value)}}  placeholder='DELHI' className='border-b-4 ' />
                     </div>
-                    <div className='flex flex-col items-center justify-center mx-3 '>
-                        <p className='place-self-start text-slate-400 text-sm ' >to</p>
+                    <div className='Air_flight '>
+                        <p className='place' >To</p>
                         <input type="text" onChange={(e)=>{last(e.target.value)}} placeholder='MUMBAI' className='border-b-4 ' />
                     </div>
-                    <div className='flex flex-col items-center justify-center mx-3 '>
-                        <p className='place-self-start text-slate-400 text-sm ' >Depart</p>
+                    <div className='Air_flight '>
+                        <p className='place' >Depart</p>
                         <input type="date" className='border-b-4 ' onChange={hundleDep} />
                     </div>
-                    <div className='flex flex-col items-center justify-center mx-3 '>
-                        <p className='place-self-start text-slate-400 text-sm ' >Return</p>
+                    <div className='Air_flight '>
+                        <p className='place' >Return</p>
                         <input type="date" className='border-b-4 ' onChange={hundleRet} />
                     </div>
 

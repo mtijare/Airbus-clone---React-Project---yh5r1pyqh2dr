@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import logo from './AIR.PA_BIG.png'
+import logo1 from './airplane.png'
 import { Link } from 'react-router-dom'
 import {MediumContext} from '../context/MediumContext'
 
@@ -11,12 +12,15 @@ const Navbar = () => {
     
 <nav className="navbar">
   <div className="navbar1">
+    <div >
     <a href="/" className="flex items-center">
         <img src={logo} className="logo" alt="Flowbite Logo" />
         
     </a>
-    <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-      <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+    <img src={logo1} className="logo1" alt="airplane Logo" />
+    </div>
+    <div className="logged" id="navbar-default">
+      <ul className="log">
         
         <li>
          { user ?

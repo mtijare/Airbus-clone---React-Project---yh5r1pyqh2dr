@@ -7,8 +7,8 @@ const Payment = ({data}) => {
 
     return (
         <div className='payment' >
-            <div className='flex flex-col justify-evenly items-center ' >
-                <h1 className='text-7xl font-xl mt-2 mb-4' >Ticket Detail</h1>
+            <div className='Ticket_details ' >
+                <h1 className='Ticket' >Ticket Detail</h1>
                 <div className='flex justify-evenly border-b-4 bg-amber-400 text-white' >
                     <div className='text-6xl font-medium place-self-center' >{data.from}</div>
                     <div className='flex flex-col' >
@@ -27,19 +27,19 @@ const Payment = ({data}) => {
                 </div>
                 <div className='flex justify-around items-center p-2 mt-5' >
                     <div className='mr-5 flex flex-col items-center' >
-                        <div className='flex flex-col justify-evenly items-center p-1 border-b-1'>
+                        <div className='Ticket_details'>
                             <h1 className='text-3xl  font-lg' >Departure</h1>
                             <p className='text-xl' ><span>Date: </span>{des}</p>
                             <p className='text-xl' ><span>Time: </span>{data.departure.departureTime}</p>
                         </div>
-                        <div className='flex flex-col justify-evenly items-center p-1 border-b-1'>
+                        <div className='Ticket_details'>
                             <h1 className='text-3xl font-lg' >Return</h1>
                             <p className='text-xl' ><span>Date: </span> {ret}</p>
                             <p className='text-xl' ><span>Time: </span> {data.return.returnTime}</p>
                         </div>
                     </div>
                     <div className='ml-5' >
-                            <div className=' bg-blue-600 text-white flex flex-col justify-evenly items-center p-3 mt-2' >
+                            <div className='Ticket_details' >
                                 <h1 className='text-5xl mb-3 ' >Fare Summary</h1>
                                 <div className='border-b-1 mb-3' >
                                     <h1 className='text-xl' ><span className='text-2xl'>Flight Price: </span>Rs. {data.price}</h1>

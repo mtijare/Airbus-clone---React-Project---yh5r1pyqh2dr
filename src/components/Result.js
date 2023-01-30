@@ -16,7 +16,7 @@ const Result = () => {
       :(
       <div className='flex flex-col p-4 bg-blue-400 justify-center items-center w-3/5' >
       <h1 className='text-3xl font-xl mt-2 mb-4' >No ticket in your cart</h1>
-      <h3 className='text-xl font-xl mt-2 mb-4' >Make a safe jurney by airbus</h3>
+      <h3 className='text-xl font-xl mt-2 mb-4' >Make a safe journey by airbus</h3>
       <img 
           src="https://media2.giphy.com/media/iCEPetKVHKDOVOzMSi/giphy.gif?cid=ecf05e476g9lt4kweigpdc7b50oj7s4heyqcb0cxpnlquu7a&rid=giphy.gif" 
           alt="light"

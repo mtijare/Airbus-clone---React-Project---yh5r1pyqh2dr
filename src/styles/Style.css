@@ -1,0 +1,263 @@
+.loader {
+    background: #000;
+    background: radial-gradient(#222, #000);
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99999;
+}
+
+.loader-inner {
+    bottom: 0;
+    height: 60px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+}
+
+.loader-line-wrap {
+    animation: 
+    spin 2000ms cubic-bezier(.175, .885, .32, 1.275) infinite;
+    box-sizing: border-box;
+    height: 50px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    transform-origin: 50% 100%;
+    width: 100px;
+}
+.loader-line {
+    border: 4px solid transparent;
+    border-radius: 100%;
+    box-sizing: border-box;
+    height: 100px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+}
+.loader-line-wrap:nth-child(1) { animation-delay: -50ms; }
+.loader-line-wrap:nth-child(2) { animation-delay: -100ms; }
+.loader-line-wrap:nth-child(3) { animation-delay: -150ms; }
+.loader-line-wrap:nth-child(4) { animation-delay: -200ms; }
+.loader-line-wrap:nth-child(5) { animation-delay: -250ms; }
+
+.loader-line-wrap:nth-child(1) .loader-line {
+    border-color: hsl(0, 80%, 60%);
+    height: 90px;
+    width: 90px;
+    top: 7px;
+}
+.loader-line-wrap:nth-child(2) .loader-line {
+    border-color: hsl(60, 80%, 60%);
+    height: 76px;
+    width: 76px;
+    top: 14px;
+}
+.loader-line-wrap:nth-child(3) .loader-line {
+    border-color: hsl(120, 80%, 60%);
+    height: 62px;
+    width: 62px;
+    top: 21px;
+}
+.loader-line-wrap:nth-child(4) .loader-line {
+    border-color: hsl(180, 80%, 60%);
+    height: 48px;
+    width: 48px;
+    top: 28px;
+}
+.loader-line-wrap:nth-child(5) .loader-line {
+    border-color: hsl(240, 80%, 60%);
+    height: 34px;
+    width: 34px;
+    top: 35px;
+}
+
+@keyframes spin {
+    0%, 15% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* navbar */
+
+.navbar{
+    background-color: #f88017;
+
+}
+.logo {
+    height: auto;
+    width: 93px;
+    float: left;
+    padding-top: 47px;
+}
+.logo1 {
+    height: 44px;
+    display: flow-root;
+}
+
+.navbar1{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.navbar1 a{
+    margin-right: 812px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.login{
+    background-color: greenyellow;
+    
+}
+.logged li{
+    list-style: none;
+    /* background-color: blue; */
+}
+.logged li button{
+    background-color: navy;
+    border-radius: 545px;
+    width: 55px;
+    height: 25px;
+    color: white;
+}
+.logged li button:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+input[type="text" i] {
+    border-color: white;
+}
+input[type="date" i] {
+    border-color: white;
+}
+
+/* search */
+
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e8e4c9;
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    gap: 20px;
+}
+
+.searchflight{
+    background-color: #f88017;
+    margin: auto;
+    width: 60%;
+    padding: 5 px;
+    margin-bottom: 2px;
+    border-color: white;
+}
+.searchflight:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.journey h1{
+    text-align: center;
+    color: white;
+    margin-top: auto;
+    padding-top: 50px;
+}
+.journey{
+    text-align: center;
+    color: black;
+    text-align: start;
+}
+/* Dashboard */
+.dashboard{
+    background-color: #033e3e;
+}
+. div No Flight{
+    color: #e68099;
+}
+/* Available */
+.available{
+    text-align: center;
+    color: white;
+}
+.flight_details{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:  #ffffe0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: navy;
+    text-align: center;
+}
+
+/* .flight_post{
+    margin: 20px 0px;
+} */
+/* payment */
+
+.payment{
+    background-color: #e68099;
+    display: flex;
+    justify-content: center;
+}
+.payment h1{
+    font-size: 1em;
+}
+
+.card{
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f88017;
+}
+.card h3{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.card button{
+    color: white;
+    background-color: navy;
+}
+.card button:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+
+/* flight */
+
+.flightbrand{
+    height: auto;
+    width: 20px;
+}
+
+/* detail */
+
+
+.price{
+    background-color: greenyellow;
+    align-items: flex-start;
+    display: flex;
+}
+
+.checkout{
+    background-color: red;
+    height: 50px; ;
+    width: 200px;
+}
+
+/* result */
+
+
