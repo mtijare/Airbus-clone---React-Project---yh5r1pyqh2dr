@@ -67,7 +67,7 @@ const Detail = (props) => {
                     </div> 
                  )
                  :
-                 <div className='text-3xl text-grey-400 flex justify-center mt-3' >No Flight For Given Filter</div>
+                 <div className='No flight'>No Flight For Given Filter</div>
             }
 
             <div className="bg-gray-50 px-4 py-3 sm:flex justify-center sm:flex-row-reverse sm:px-6">
