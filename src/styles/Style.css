@@ -185,9 +185,18 @@ input[type="date" i] {
 .dashboard{
     background-color: #033e3e;
 }
-. div No Flight{
-    color: #e68099;
+.no_flight{
+    color: ghostwhite;
 }
+.cancle_button{
+    background-color: #222;
+    color: white;
+}
+.cancle_button:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+
 /* Available */
 .available{
     text-align: center;

@@ -1,6 +1,6 @@
 import { createContext, useState } from 'react'
-// import { signInWithPopup } from 'firebase/auth'
-// import { auth, provider } from '../firebase'
+import { signInWithPopup } from 'firebase/auth'
+import { auth, provider } from '../firebase'
 
 export const MediumContext = createContext()
 
