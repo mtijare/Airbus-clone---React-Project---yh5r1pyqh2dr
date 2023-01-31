@@ -13,7 +13,7 @@ const Dashboard = () => {
 
   return (
     <div className='dashboard'>
-        <div className='flex items-center justify-center  h-screen flex-col justify-evenly' >
+        <div className='dashboard_detail' >
         <Search start={setFrom} last={setLast} switch1={() => setOpenModal(true)} />
         <Available/>
         </div>
