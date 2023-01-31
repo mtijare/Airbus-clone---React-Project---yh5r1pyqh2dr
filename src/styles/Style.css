@@ -125,7 +125,6 @@
 }
 .logged li{
     list-style: none;
-    /* background-color: blue; */
 }
 .logged li button{
     background-color: navy;
@@ -212,9 +211,6 @@ input[type="date" i] {
     text-align: center;
 }
 
-/* .flight_post{
-    margin: 20px 0px;
-} */
 /* payment */
 
 .payment{
@@ -267,6 +263,5 @@ input[type="date" i] {
     width: 200px;
 }
 
-/* result */
 
 
