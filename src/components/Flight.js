@@ -5,11 +5,11 @@ const Flight = ({plane}) => {
     return (
         <div className='flight_details ' >
             <div className='flight_post'>
-                <p className='place-self-start text-slate-400 text-sm ' >Airline Name</p>
+                <p className='airline_name' >Airline Name</p>
                 <p className='text-lg ' >{plane.airlineName}</p>
             </div>
             <div className='flight_post'>
-                <p className='place-self-start text-slate-400 text-sm ' >From</p>
+                <p className='plane_from' >From</p>
                 <p className='text-lg ' >{plane.from}</p>
             </div>
             <div className='flight_post' >
@@ -21,15 +21,15 @@ const Flight = ({plane}) => {
                  />
             </div>
             <div className='flight_post'>
-                <p className='place-self-start text-slate-400 text-sm ' >To</p>
+                <p className='plane_to' >To</p>
                 <p className='text-lg ' >{plane.to}</p>
             </div>
             <div className='flight_post'>
-                <p className='place-self-start text-slate-400 text-sm ' >Depart</p>
+                <p className='depart_date ' >Depart</p>
                 <p className='text-lg ' >{plane.departure.departureDate}</p>
             </div>
             <div className='flight_post'>
-                <p className='place-self-start text-slate-400 text-sm ' >Flight Brand</p>
+                <p className='plane_name' >Flight Brand</p>
                 <p className='text-lg ' >{plane.airlineName}</p>
             </div>
         </div>

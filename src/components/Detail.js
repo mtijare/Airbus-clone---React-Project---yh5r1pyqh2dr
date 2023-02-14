@@ -6,6 +6,7 @@ import {MediumContext} from '../context/MediumContext'
 const Detail = (props) => {
 
   const [data , setdata] = useState([]);
+
   useEffect(() => {
     async function GetData(){
       const Fromtr = props.start.charAt(0).toUpperCase() + props.start.slice(1).toLowerCase()
@@ -23,7 +24,7 @@ const Detail = (props) => {
   function hundle(){
     setst(data[0])
   }
-
+  
   return (
     <div className="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
 

@@ -52,7 +52,7 @@
 .loader-line-wrap:nth-child(5) { animation-delay: -250ms; }
 
 .loader-line-wrap:nth-child(1) .loader-line {
-    border-color: hsl(0, 80%, 60%);
+    border-color: rgb(237, 168, 29);
     height: 90px;
     width: 90px;
     top: 7px;
@@ -94,18 +94,22 @@
 /* navbar */
 
 .navbar{
-    background-color: #f88017;
+    background-color: #ffffe0;
+    border: #f88017;
+    border-radius: 2px;
 
 }
 .logo {
     height: auto;
-    width: 93px;
+    width: 154px;
     float: left;
-    padding-top: 47px;
+    margin-left: 581px;
 }
 .logo1 {
-    height: 44px;
+    margin-top: 5px;
+    height: 41px;
     display: flow-root;
+    width: 56px;
 }
 
 .navbar1{
@@ -120,22 +124,23 @@
 }
 
 .login{
-    background-color: greenyellow;
+    background-color: whitesmoke;
     
 }
 .logged li{
     list-style: none;
 }
 .logged li button{
-    background-color: navy;
-    border-radius: 545px;
-    width: 55px;
-    height: 25px;
+    background-color: rgb(56, 144, 157);
+    border-radius: 12px;
+    width: 76px;
+    height: 28px;
     color: white;
+    margin-right: 61px;
 }
 .logged li button:hover{
     cursor: pointer;
-    background-color: red;
+    background-color: rgb(21, 53, 57);
 }
 
 input[type="text" i] {

@@ -2,7 +2,7 @@ import './App.css';
 import Dashboard from './components/Dashboard';
 import Navbar from './components/Navbar';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes
 } from "react-router-dom";
